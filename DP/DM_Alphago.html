@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DQN</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/DM_Alphago.css">
+
+</head>
+<body>
+<div class="header">
+    <div class ="top">
+        <div class="topl">
+            <img src="img/logo.png">
+        </div>
+        <div class = "topr">
+            <a href="###">我与AI</a>
+            <span>|</span>
+            <a href="###">发展历程</a>
+            <span>|</span>
+            <a href="###">时事新闻</a>
+            <span>|</span>
+            <a href="###">智语兵法</a>
+            <span>|</span>
+            <a href="###">DeepMind</a>
+            <span>|</span>
+            <a href="###">网站首页</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <img class="neibg" src="img/4.jpg">
+    <div class="main">
+        <div class="mainw">
+            <span>您的位置：</span>
+            <a href="##">网站首页</a>
+            <span>>></span>
+            <a href="DevPro.html">发展历程</a>
+        </div>
+        <div class="lanmu">
+            <span>人工智能发展历程</span>
+            <div class="optcity"></div>
+            <nav class="choice">
+                <ul id="choice">
+                    <li><a href="DM_Appear.html"class="a1">人工智能</a></li>
+                    <li><a href="DM_IBM.html"  class="a2">IBM深蓝</a></li>
+                    <li><a href="DMCrazyStone.html"  class="a3">CrazyStone</a></li>
+                    <li><a href="DM_Alphago.html" class="a4" id="active">Alphago</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="contentl">
+                <p>
+                    阿尔法围棋（AlphaGo）是一款围棋人工智能程序，由位于英国伦敦的谷歌（Google）旗下DeepMind公司的戴维·西尔弗、艾佳·黄和戴密斯·哈萨比斯与他们的团队开发，这个程序利用“价值网络”去计算局面，用“策略网络”去选择下子。
+                </p>
+                <p>
+                    2015年10月阿尔法围棋以5：0完胜欧洲围棋冠军、职业二段选手樊麾。2016年3月挑战世界围棋冠军、职业九段选手李世石。根据日程安排，5盘棋将分别于3月9日、10日、12日、13日和15日举行，即使一方率先取得3胜，也会下满5盘。最后以1:4结束了这场“战争”。
+
+                </p>
+                <p>
+                    谷歌研究者开发的名为“阿尔法围棋”（Alpha Go）的人工智能机器人，在没有任何让子的情况下，以5：0完胜欧洲围棋冠军、职业二段选手樊麾。在围棋人工智能领域，实现了一次史无前例的突破。计算机程序能在不让子的情况下，在完整的围棋游戏中击败专业选手，这是第一次。此前，研究者也让“阿尔法围棋”和其他的围棋人工智能机器人进行了较量，在总计495局中只输了一局，胜率是99.8%。它甚至尝试了让4子对阵CrazyStone、Zen和Pachi三个先进的人工智能机器人，胜率分别是77%、86%和99%。
+                </p>
+                <p>
+                    在谈及AlphaGo及其开发团队Google DeepMind之前，必须先简介一下其领导者哈萨比斯(Demis Hassabis)，可以说，在他出现之前，几乎所有研究者都认为在十年内人工智能战胜围棋大师的机会是渺茫的。而在他出现以后，几乎所有人都在惊呼人工智能已破解了围棋这一历史难题，甚至在极短的时间内两次让研究成果上了《Nature》杂志的封面。因此，卫报(TheGuardian)直呼Hassabis就是人工智能领域的超级英雄。我认为Hassabis个人完全配得上这个称谓。
+                </p>
+                <!--<div align="center" class="wpic">-->
+                <!--<img src="img/DQN1.jpg " alt="DQN">-->
+                <!--</div>-->
+                <p>
+                    来判断当前的局面，到底对哪一方有利，这一步类似于国际象棋程序中的估值函数，而具体的实现方法却有所不同，象棋程序中需要人工调整估值函数中的权重，以达到最好的效果，甚至需要水平极高的国际特级大师参与调整参数。而围棋程序的局势评估相当困难，只能通过深度学习网络之间自我训练的方法来达到良好的效果。与国际象棋程序相比，围棋好比人类用自己的知识训练电脑，使其达到人类高手的水平，而国际象棋程序则是人类亲自将行棋的方法与逻辑设计为电脑程序，最终由计算机代表人类与人类高手进行对弈。根据Facebook人工智能组研究员田渊栋博士介绍，为了得到合适的价值网络模型，AlphaGo通过自我对局三千万盘的方式训练得到了强有力的价值网络模型，最后再通过传统的蒙特卡洛搜索树方法结合以上两种深度神经网络模型，最终得到了完整的AlphaGo围棋程序。可以说AlphaGo的研发是当今人工智能领域各类技术的集大成者，体现了人工智能技术的最高水平。
+                </p>
+            </div>
+            <div class="contentr">
+                <div class="infor">
+                    <img src="img/alp1.jpg" alt="AlphaGo">
+                </div>
+                <div class="infor">
+                    <img src="img/alp3.jpg" alt="AlphaGo">
+                </div>
+                <div class="infor">
+                    <img src="img/alp4.jpg" alt="AlphaGo">
+                </div>
+                <div class="infor">
+                    <img src="img/b210dbeb1c9ca5eb1effa2e6763523d9.jpg" alt="AlphaGo">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer1">
+
+    </div>
+    <div class="footer2">
+        <!--<span>-->
+        <!--网络文化经营许可证：渝网文[2013]0233-083号 <br/>-->
+        <!--信息网络传播视听节目许可证：1910111号 <br/>-->
+        <!--经营许可证：渝B2-20111339号  <br/>-->
+        <!--广违法和不良信息举报：www.12377.cn 举报电话：12377-->
+
+        <!--</span>-->
+    </div>
+
+</div>
+<div class=""></div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
